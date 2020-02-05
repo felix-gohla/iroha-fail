@@ -1,0 +1,429 @@
+Attaching to iroha-node0, iroha-node3, iroha-node2, iroha-node1
+[36miroha-node0    |[0m key=node0
+[36miroha-node0    |[0m /opt/iroha
+[36miroha-node0    |[0m NOTE: IROHA_POSTGRES_HOST should match 'host' option in config file
+[36miroha-node0    |[0m wait-for-it.sh: waiting 20 seconds for localhost:5432
+[36miroha-node0    |[0m The files belonging to this database system will be owned by user "postgres".
+[36miroha-node0    |[0m This user must also own the server process.
+[36miroha-node0    |[0m 
+[36miroha-node0    |[0m The database cluster will be initialized with locale "en_US.utf8".
+[36miroha-node0    |[0m The default database encoding has accordingly been set to "UTF8".
+[36miroha-node0    |[0m The default text search configuration will be set to "english".
+[36miroha-node0    |[0m 
+[36miroha-node0    |[0m Data page checksums are disabled.
+[36miroha-node0    |[0m 
+[36miroha-node0    |[0m fixing permissions on existing directory /var/lib/postgresql/data ... ok
+[36miroha-node0    |[0m creating subdirectories ... ok
+[36miroha-node0    |[0m selecting dynamic shared memory implementation ... posix
+[32miroha-node2    |[0m key=node2
+[32miroha-node2    |[0m /opt/iroha
+[32miroha-node2    |[0m NOTE: IROHA_POSTGRES_HOST should match 'host' option in config file
+[33miroha-node1    |[0m key=node1
+[33miroha-node1    |[0m /opt/iroha
+[33miroha-node1    |[0m NOTE: IROHA_POSTGRES_HOST should match 'host' option in config file
+[35miroha-node3    |[0m key=node3
+[35miroha-node3    |[0m /opt/iroha
+[35miroha-node3    |[0m NOTE: IROHA_POSTGRES_HOST should match 'host' option in config file
+[35miroha-node3    |[0m wait-for-it.sh: waiting 20 seconds for localhost:5432
+[36miroha-node0    |[0m selecting default max_connections ... 100
+[32miroha-node2    |[0m wait-for-it.sh: waiting 20 seconds for localhost:5432
+[35miroha-node3    |[0m The files belonging to this database system will be owned by user "postgres".
+[35miroha-node3    |[0m This user must also own the server process.
+[35miroha-node3    |[0m 
+[35miroha-node3    |[0m The database cluster will be initialized with locale "en_US.utf8".
+[35miroha-node3    |[0m The default database encoding has accordingly been set to "UTF8".
+[35miroha-node3    |[0m The default text search configuration will be set to "english".
+[35miroha-node3    |[0m 
+[35miroha-node3    |[0m Data page checksums are disabled.
+[35miroha-node3    |[0m 
+[35miroha-node3    |[0m fixing permissions on existing directory /var/lib/postgresql/data ... ok
+[35miroha-node3    |[0m creating subdirectories ... ok
+[35miroha-node3    |[0m selecting dynamic shared memory implementation ... posix
+[33miroha-node1    |[0m wait-for-it.sh: waiting 20 seconds for localhost:5432
+[36miroha-node0    |[0m selecting default shared_buffers ... 128MB
+[35miroha-node3    |[0m selecting default max_connections ... 100
+[32miroha-node2    |[0m The files belonging to this database system will be owned by user "postgres".
+[32miroha-node2    |[0m This user must also own the server process.
+[32miroha-node2    |[0m 
+[32miroha-node2    |[0m The database cluster will be initialized with locale "en_US.utf8".
+[32miroha-node2    |[0m The default database encoding has accordingly been set to "UTF8".
+[32miroha-node2    |[0m The default text search configuration will be set to "english".
+[32miroha-node2    |[0m 
+[32miroha-node2    |[0m Data page checksums are disabled.
+[32miroha-node2    |[0m 
+[32miroha-node2    |[0m fixing permissions on existing directory /var/lib/postgresql/data ... ok
+[32miroha-node2    |[0m creating subdirectories ... ok
+[32miroha-node2    |[0m selecting dynamic shared memory implementation ... posix
+[36miroha-node0    |[0m selecting default time zone ... Etc/UTC
+[33miroha-node1    |[0m The files belonging to this database system will be owned by user "postgres".
+[33miroha-node1    |[0m This user must also own the server process.
+[33miroha-node1    |[0m 
+[33miroha-node1    |[0m The database cluster will be initialized with locale "en_US.utf8".
+[33miroha-node1    |[0m The default database encoding has accordingly been set to "UTF8".
+[33miroha-node1    |[0m The default text search configuration will be set to "english".
+[33miroha-node1    |[0m 
+[33miroha-node1    |[0m Data page checksums are disabled.
+[33miroha-node1    |[0m 
+[33miroha-node1    |[0m fixing permissions on existing directory /var/lib/postgresql/data ... ok
+[36miroha-node0    |[0m creating configuration files ... ok
+[33miroha-node1    |[0m creating subdirectories ... ok
+[33miroha-node1    |[0m selecting dynamic shared memory implementation ... posix
+[35miroha-node3    |[0m selecting default shared_buffers ... 128MB
+[32miroha-node2    |[0m selecting default max_connections ... 100
+[33miroha-node1    |[0m selecting default max_connections ... 100
+[35miroha-node3    |[0m selecting default time zone ... Etc/UTC
+[35miroha-node3    |[0m creating configuration files ... ok
+[32miroha-node2    |[0m selecting default shared_buffers ... 128MB
+[33miroha-node1    |[0m selecting default shared_buffers ... 128MB
+[32miroha-node2    |[0m selecting default time zone ... Etc/UTC
+[32miroha-node2    |[0m creating configuration files ... ok
+[33miroha-node1    |[0m selecting default time zone ... Etc/UTC
+[33miroha-node1    |[0m creating configuration files ... ok
+[36miroha-node0    |[0m running bootstrap script ... ok
+[35miroha-node3    |[0m running bootstrap script ... ok
+[32miroha-node2    |[0m running bootstrap script ... ok
+[33miroha-node1    |[0m running bootstrap script ... ok
+[36miroha-node0    |[0m performing post-bootstrap initialization ... ok
+[35miroha-node3    |[0m performing post-bootstrap initialization ... ok
+[33miroha-node1    |[0m performing post-bootstrap initialization ... ok
+[32miroha-node2    |[0m performing post-bootstrap initialization ... ok
+[35miroha-node3    |[0m syncing data to disk ... ok
+[35miroha-node3    |[0m 
+[35miroha-node3    |[0m initdb: warning: enabling "trust" authentication for local connections
+[35miroha-node3    |[0m You can change this by editing pg_hba.conf or using the option -A, or
+[35miroha-node3    |[0m --auth-local and --auth-host, the next time you run initdb.
+[35miroha-node3    |[0m 
+[35miroha-node3    |[0m Success. You can now start the database server using:
+[35miroha-node3    |[0m 
+[35miroha-node3    |[0m     pg_ctl -D /var/lib/postgresql/data -l logfile start
+[35miroha-node3    |[0m 
+[33miroha-node1    |[0m syncing data to disk ... ok
+[33miroha-node1    |[0m 
+[33miroha-node1    |[0m initdb: warning: enabling "trust" authentication for local connections
+[33miroha-node1    |[0m You can change this by editing pg_hba.conf or using the option -A, or
+[33miroha-node1    |[0m --auth-local and --auth-host, the next time you run initdb.
+[33miroha-node1    |[0m 
+[33miroha-node1    |[0m Success. You can now start the database server using:
+[33miroha-node1    |[0m 
+[33miroha-node1    |[0m     pg_ctl -D /var/lib/postgresql/data -l logfile start
+[33miroha-node1    |[0m 
+[36miroha-node0    |[0m syncing data to disk ... ok
+[36miroha-node0    |[0m 
+[36miroha-node0    |[0m initdb: warning: enabling "trust" authentication for local connections
+[36miroha-node0    |[0m You can change this by editing pg_hba.conf or using the option -A, or
+[36miroha-node0    |[0m --auth-local and --auth-host, the next time you run initdb.
+[36miroha-node0    |[0m 
+[36miroha-node0    |[0m Success. You can now start the database server using:
+[36miroha-node0    |[0m 
+[36miroha-node0    |[0m     pg_ctl -D /var/lib/postgresql/data -l logfile start
+[36miroha-node0    |[0m 
+[35miroha-node3    |[0m waiting for server to start....2020-02-05 12:17:04.057 UTC [60] LOG:  starting PostgreSQL 12.1 (Debian 12.1-1.pgdg100+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 8.3.0-6) 8.3.0, 64-bit
+[35miroha-node3    |[0m 2020-02-05 12:17:04.058 UTC [60] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+[33miroha-node1    |[0m waiting for server to start....2020-02-05 12:17:04.062 UTC [60] LOG:  starting PostgreSQL 12.1 (Debian 12.1-1.pgdg100+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 8.3.0-6) 8.3.0, 64-bit
+[36miroha-node0    |[0m waiting for server to start....2020-02-05 12:17:04.062 UTC [59] LOG:  starting PostgreSQL 12.1 (Debian 12.1-1.pgdg100+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 8.3.0-6) 8.3.0, 64-bit
+[36miroha-node0    |[0m 2020-02-05 12:17:04.063 UTC [59] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+[33miroha-node1    |[0m 2020-02-05 12:17:04.063 UTC [60] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+[35miroha-node3    |[0m 2020-02-05 12:17:04.071 UTC [61] LOG:  database system was shut down at 2020-02-05 12:17:03 UTC
+[33miroha-node1    |[0m 2020-02-05 12:17:04.074 UTC [61] LOG:  database system was shut down at 2020-02-05 12:17:03 UTC
+[36miroha-node0    |[0m 2020-02-05 12:17:04.074 UTC [60] LOG:  database system was shut down at 2020-02-05 12:17:03 UTC
+[35miroha-node3    |[0m 2020-02-05 12:17:04.075 UTC [60] LOG:  database system is ready to accept connections
+[36miroha-node0    |[0m 2020-02-05 12:17:04.078 UTC [59] LOG:  database system is ready to accept connections
+[33miroha-node1    |[0m 2020-02-05 12:17:04.078 UTC [60] LOG:  database system is ready to accept connections
+[32miroha-node2    |[0m syncing data to disk ... ok
+[32miroha-node2    |[0m 
+[32miroha-node2    |[0m initdb: warning: enabling "trust" authentication for local connections
+[32miroha-node2    |[0m You can change this by editing pg_hba.conf or using the option -A, or
+[32miroha-node2    |[0m --auth-local and --auth-host, the next time you run initdb.
+[32miroha-node2    |[0m 
+[32miroha-node2    |[0m Success. You can now start the database server using:
+[32miroha-node2    |[0m 
+[32miroha-node2    |[0m     pg_ctl -D /var/lib/postgresql/data -l logfile start
+[32miroha-node2    |[0m 
+[32miroha-node2    |[0m waiting for server to start....2020-02-05 12:17:04.117 UTC [61] LOG:  starting PostgreSQL 12.1 (Debian 12.1-1.pgdg100+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 8.3.0-6) 8.3.0, 64-bit
+[32miroha-node2    |[0m 2020-02-05 12:17:04.118 UTC [61] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+[32miroha-node2    |[0m 2020-02-05 12:17:04.128 UTC [62] LOG:  database system was shut down at 2020-02-05 12:17:03 UTC
+[32miroha-node2    |[0m 2020-02-05 12:17:04.131 UTC [61] LOG:  database system is ready to accept connections
+[35miroha-node3    |[0m  done
+[35miroha-node3    |[0m server started
+[33miroha-node1    |[0m  done
+[33miroha-node1    |[0m server started
+[36miroha-node0    |[0m  done
+[36miroha-node0    |[0m server started
+[32miroha-node2    |[0m  done
+[32miroha-node2    |[0m server started
+[36miroha-node0    |[0m CREATE DATABASE
+[33miroha-node1    |[0m CREATE DATABASE
+[35miroha-node3    |[0m CREATE DATABASE
+[36miroha-node0    |[0m 
+[36miroha-node0    |[0m 
+[35miroha-node3    |[0m 
+[35miroha-node3    |[0m 
+[33miroha-node1    |[0m 
+[33miroha-node1    |[0m 
+[35miroha-node3    |[0m /usr/local/bin/docker-entrypoint.sh: ignoring /docker-entrypoint-initdb.d/*
+[35miroha-node3    |[0m 
+[33miroha-node1    |[0m /usr/local/bin/docker-entrypoint.sh: ignoring /docker-entrypoint-initdb.d/*
+[33miroha-node1    |[0m 
+[36miroha-node0    |[0m /usr/local/bin/docker-entrypoint.sh: ignoring /docker-entrypoint-initdb.d/*
+[36miroha-node0    |[0m 
+[35miroha-node3    |[0m waiting for server to shut down....2020-02-05 12:17:04.316 UTC [60] LOG:  received fast shutdown request
+[33miroha-node1    |[0m waiting for server to shut down...2020-02-05 12:17:04.316 UTC [60] LOG:  received fast shutdown request
+[36miroha-node0    |[0m 2020-02-05 12:17:04.317 UTC [59] LOG:  received fast shutdown request
+[35miroha-node3    |[0m 2020-02-05 12:17:04.319 UTC [60] LOG:  aborting any active transactions
+[36miroha-node0    |[0m waiting for server to shut down....2020-02-05 12:17:04.319 UTC [59] LOG:  aborting any active transactions
+[33miroha-node1    |[0m .2020-02-05 12:17:04.319 UTC [60] LOG:  aborting any active transactions
+[36miroha-node0    |[0m 2020-02-05 12:17:04.321 UTC [59] LOG:  background worker "logical replication launcher" (PID 66) exited with exit code 1
+[36miroha-node0    |[0m 2020-02-05 12:17:04.322 UTC [61] LOG:  shutting down
+[35miroha-node3    |[0m 2020-02-05 12:17:04.322 UTC [60] LOG:  background worker "logical replication launcher" (PID 67) exited with exit code 1
+[35miroha-node3    |[0m 2020-02-05 12:17:04.322 UTC [62] LOG:  shutting down
+[33miroha-node1    |[0m 2020-02-05 12:17:04.322 UTC [60] LOG:  background worker "logical replication launcher" (PID 67) exited with exit code 1
+[33miroha-node1    |[0m 2020-02-05 12:17:04.323 UTC [62] LOG:  shutting down
+[36miroha-node0    |[0m 2020-02-05 12:17:04.345 UTC [59] LOG:  database system is shut down
+[33miroha-node1    |[0m 2020-02-05 12:17:04.345 UTC [60] LOG:  database system is shut down
+[35miroha-node3    |[0m 2020-02-05 12:17:04.345 UTC [60] LOG:  database system is shut down
+[32miroha-node2    |[0m CREATE DATABASE
+[32miroha-node2    |[0m 
+[32miroha-node2    |[0m 
+[32miroha-node2    |[0m /usr/local/bin/docker-entrypoint.sh: ignoring /docker-entrypoint-initdb.d/*
+[32miroha-node2    |[0m 
+[32miroha-node2    |[0m 2020-02-05 12:17:04.373 UTC [61] LOG:  received fast shutdown request
+[32miroha-node2    |[0m waiting for server to shut down....2020-02-05 12:17:04.374 UTC [61] LOG:  aborting any active transactions
+[32miroha-node2    |[0m 2020-02-05 12:17:04.375 UTC [61] LOG:  background worker "logical replication launcher" (PID 68) exited with exit code 1
+[32miroha-node2    |[0m 2020-02-05 12:17:04.375 UTC [63] LOG:  shutting down
+[32miroha-node2    |[0m 2020-02-05 12:17:04.383 UTC [61] LOG:  database system is shut down
+[35miroha-node3    |[0m  done
+[35miroha-node3    |[0m server stopped
+[35miroha-node3    |[0m 
+[35miroha-node3    |[0m PostgreSQL init process complete; ready for start up.
+[35miroha-node3    |[0m 
+[36miroha-node0    |[0m  done
+[36miroha-node0    |[0m server stopped
+[33miroha-node1    |[0m  done
+[33miroha-node1    |[0m server stopped
+[33miroha-node1    |[0m 
+[33miroha-node1    |[0m PostgreSQL init process complete; ready for start up.
+[33miroha-node1    |[0m 
+[36miroha-node0    |[0m 
+[36miroha-node0    |[0m PostgreSQL init process complete; ready for start up.
+[36miroha-node0    |[0m 
+[36miroha-node0    |[0m 2020-02-05 12:17:04.432 UTC [7] LOG:  starting PostgreSQL 12.1 (Debian 12.1-1.pgdg100+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 8.3.0-6) 8.3.0, 64-bit
+[36miroha-node0    |[0m 2020-02-05 12:17:04.432 UTC [7] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+[36miroha-node0    |[0m 2020-02-05 12:17:04.432 UTC [7] LOG:  listening on IPv6 address "::", port 5432
+[35miroha-node3    |[0m 2020-02-05 12:17:04.432 UTC [7] LOG:  starting PostgreSQL 12.1 (Debian 12.1-1.pgdg100+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 8.3.0-6) 8.3.0, 64-bit
+[35miroha-node3    |[0m 2020-02-05 12:17:04.432 UTC [7] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+[35miroha-node3    |[0m 2020-02-05 12:17:04.432 UTC [7] LOG:  listening on IPv6 address "::", port 5432
+[33miroha-node1    |[0m 2020-02-05 12:17:04.432 UTC [7] LOG:  starting PostgreSQL 12.1 (Debian 12.1-1.pgdg100+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 8.3.0-6) 8.3.0, 64-bit
+[33miroha-node1    |[0m 2020-02-05 12:17:04.432 UTC [7] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+[33miroha-node1    |[0m 2020-02-05 12:17:04.432 UTC [7] LOG:  listening on IPv6 address "::", port 5432
+[35miroha-node3    |[0m 2020-02-05 12:17:04.435 UTC [7] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+[36miroha-node0    |[0m 2020-02-05 12:17:04.435 UTC [7] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+[33miroha-node1    |[0m 2020-02-05 12:17:04.435 UTC [7] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+[36miroha-node0    |[0m 2020-02-05 12:17:04.447 UTC [79] LOG:  database system was shut down at 2020-02-05 12:17:04 UTC
+[35miroha-node3    |[0m 2020-02-05 12:17:04.447 UTC [80] LOG:  database system was shut down at 2020-02-05 12:17:04 UTC
+[33miroha-node1    |[0m 2020-02-05 12:17:04.448 UTC [80] LOG:  database system was shut down at 2020-02-05 12:17:04 UTC
+[35miroha-node3    |[0m 2020-02-05 12:17:04.453 UTC [7] LOG:  database system is ready to accept connections
+[36miroha-node0    |[0m 2020-02-05 12:17:04.453 UTC [7] LOG:  database system is ready to accept connections
+[33miroha-node1    |[0m 2020-02-05 12:17:04.455 UTC [7] LOG:  database system is ready to accept connections
+[32miroha-node2    |[0m  done
+[32miroha-node2    |[0m server stopped
+[32miroha-node2    |[0m 
+[32miroha-node2    |[0m PostgreSQL init process complete; ready for start up.
+[32miroha-node2    |[0m 
+[32miroha-node2    |[0m 2020-02-05 12:17:04.483 UTC [8] LOG:  starting PostgreSQL 12.1 (Debian 12.1-1.pgdg100+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 8.3.0-6) 8.3.0, 64-bit
+[32miroha-node2    |[0m 2020-02-05 12:17:04.483 UTC [8] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+[32miroha-node2    |[0m 2020-02-05 12:17:04.483 UTC [8] LOG:  listening on IPv6 address "::", port 5432
+[32miroha-node2    |[0m 2020-02-05 12:17:04.485 UTC [8] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+[32miroha-node2    |[0m 2020-02-05 12:17:04.495 UTC [81] LOG:  database system was shut down at 2020-02-05 12:17:04 UTC
+[32miroha-node2    |[0m 2020-02-05 12:17:04.499 UTC [8] LOG:  database system is ready to accept connections
+[36miroha-node0    |[0m 2020-02-05 12:17:05.130 UTC [87] LOG:  incomplete startup packet
+[36miroha-node0    |[0m wait-for-it.sh: localhost:5432 is available after 2 seconds
+[36miroha-node0    |[0m true
+[36miroha-node0    |[0m /opt/iroha
+[36miroha-node0    |[0m node0
+[36miroha-node0    |[0m /opt/iroha
+[35miroha-node3    |[0m 2020-02-05 12:17:05.159 UTC [88] LOG:  incomplete startup packet
+[35miroha-node3    |[0m wait-for-it.sh: localhost:5432 is available after 2 seconds
+[35miroha-node3    |[0m true
+[35miroha-node3    |[0m /opt/iroha
+[35miroha-node3    |[0m node3
+[35miroha-node3    |[0m /opt/iroha
+[32miroha-node2    |[0m 2020-02-05 12:17:05.181 UTC [90] LOG:  incomplete startup packet
+[32miroha-node2    |[0m wait-for-it.sh: localhost:5432 is available after 2 seconds
+[32miroha-node2    |[0m true
+[32miroha-node2    |[0m /opt/iroha
+[32miroha-node2    |[0m node2
+[32miroha-node2    |[0m /opt/iroha
+[33miroha-node1    |[0m 2020-02-05 12:17:05.184 UTC [89] LOG:  incomplete startup packet
+[33miroha-node1    |[0m wait-for-it.sh: localhost:5432 is available after 2 seconds
+[33miroha-node1    |[0m true
+[33miroha-node1    |[0m /opt/iroha
+[33miroha-node1    |[0m node1
+[33miroha-node1    |[0m /opt/iroha
+[36miroha-node0    |[0m [2020-02-05 12:17:06.155094088][I][Init]: Irohad version: 1.1.0-240-g45c9dd4
+[36miroha-node0    |[0m [2020-02-05 12:17:06.155156039][I][Init]: config initialized
+[36miroha-node0    |[0m [2020-02-05 12:17:06.158521017][I][Irohad]: created
+[36miroha-node0    |[0m [2020-02-05 12:17:06.158620254][I][Irohad]: [Init] => pending transactions storage
+[36miroha-node0    |[0m [2020-02-05 12:17:06.229153503][I][Irohad/FlatFile]: get(0) file not found
+[36miroha-node0    |[0m [2020-02-05 12:17:06.229277916][I][Irohad]: [Init] => storage
+[36miroha-node0    |[0m [2020-02-05 12:17:06.298637206][I][Irohad/Storage]: create mutable storage
+[36miroha-node0    |[0m [2020-02-05 12:17:06.316986818][I][Irohad/Storage/MutableStorageImpl]: Applying block: height 1, hash d1a90b74cb7369238e44154eca011eefe02650745ccaae99f5c03ffdc61e12e0
+[36miroha-node0    |[0m [2020-02-05 12:17:06.324408321][I][Irohad/Storage]: Block inserted
+[36miroha-node0    |[0m [2020-02-05 12:17:06.331985366][I][Init]: Genesis block inserted, number of transactions: 1
+[36miroha-node0    |[0m [2020-02-05 12:17:06.334281777][I][Irohad/Storage/PostgresSettingQuery]: Kept value for MaxDescriptionSize: 64
+[36miroha-node0    |[0m [2020-02-05 12:17:06.334319207][I][Irohad]: [Init] => settings
+[36miroha-node0    |[0m [2020-02-05 12:17:06.334333931][I][Irohad]: [Init] => validators configs
+[36miroha-node0    |[0m [2020-02-05 12:17:06.411993840][I][Irohad/Storage/MutableStorageImpl]: Applying block: height 1, hash d1a90b74cb7369238e44154eca011eefe02650745ccaae99f5c03ffdc61e12e0
+[36miroha-node0    |[0m [2020-02-05 12:17:06.423073959][I][Irohad]: [Init] => crypto provider
+[36miroha-node0    |[0m [2020-02-05 12:17:06.423103853][I][Irohad]: [Init] => transaction batch parser
+[36miroha-node0    |[0m [2020-02-05 12:17:06.423213440][I][Irohad]: [Init] => validators
+[36miroha-node0    |[0m [2020-02-05 12:17:06.423807454][I][Irohad]: [Init] => factories
+[36miroha-node0    |[0m [2020-02-05 12:17:06.423838092][I][Irohad]: [Init] => persistent cache
+[36miroha-node0    |[0m [2020-02-05 12:17:06.426391892][I][Irohad]: [Init] => init ordering gate - [true]
+[36miroha-node0    |[0m [2020-02-05 12:17:06.437953235][I][Irohad]: [Init] => init simulator
+[36miroha-node0    |[0m [2020-02-05 12:17:06.437987663][I][Irohad]: [Init] => init consensus block cache
+[36miroha-node0    |[0m [2020-02-05 12:17:06.438095112][I][Irohad]: [Init] => block loader
+[36miroha-node0    |[0m [2020-02-05 12:17:06.441141659][I][Irohad]: [Init] => consensus gate
+[36miroha-node0    |[0m [2020-02-05 12:17:06.455075874][I][Irohad]: [Init] => synchronizer
+[36miroha-node0    |[0m [2020-02-05 12:17:06.455214237][I][Irohad]: [Init] => pcs
+[36miroha-node0    |[0m [2020-02-05 12:17:06.455354907][I][Irohad]: [Init] => Tx status bus
+[36miroha-node0    |[0m [2020-02-05 12:17:06.455688662][I][Irohad]: [Init] => MST processor
+[36miroha-node0    |[0m [2020-02-05 12:17:06.455989407][I][Irohad]: [Init] => command service
+[36miroha-node0    |[0m [2020-02-05 12:17:06.456152089][I][Irohad]: [Init] => query service
+[36miroha-node0    |[0m [2020-02-05 12:17:06.456182089][I][Init]: Running iroha
+[36miroha-node0    |[0m [2020-02-05 12:17:06.456582554][I][Irohad]: Torii server bound on port 50051
+[36miroha-node0    |[0m [2020-02-05 12:17:06.456745881][I][Irohad]: Internal server bound on port 10001
+[36miroha-node0    |[0m [2020-02-05 12:17:06.456773612][I][Irohad]: ===> iroha initialized
+[36miroha-node0    |[0m [2020-02-05 12:17:06.460031105][I][Irohad/Ordering/Service]: onCollaborationOutcome => Round: [block=2, reject=0]
+[36miroha-node0    |[0m [2020-02-05 12:17:06.460913733][W][Irohad/Ordering/NetworkClient]: RPC failed: failed to connect to all addresses
+[36miroha-node0    |[0m [2020-02-05 12:17:06.461494016][I][Irohad]: ~~~~~~~~~| PROPOSAL ^_^ |~~~~~~~~~ 
+[36miroha-node0    |[0m [2020-02-05 12:17:06.462030080][W][Irohad/AsyncNetworkClient]: RPC failed: failed to connect to all addresses iroha-node1:10001
+[36miroha-node0    |[0m [2020-02-05 12:17:06.563380906][W][Irohad/AsyncNetworkClient]: RPC failed: failed to connect to all addresses iroha-node2:10001
+[36miroha-node0    |[0m [2020-02-05 12:17:06.767166085][W][Irohad/AsyncNetworkClient]: RPC failed: failed to connect to all addresses iroha-node3:10001
+[33miroha-node1    |[0m [2020-02-05 12:17:09.211459030][I][Init]: Irohad version: 1.1.0-240-g45c9dd4
+[33miroha-node1    |[0m [2020-02-05 12:17:09.211522122][I][Init]: config initialized
+[33miroha-node1    |[0m [2020-02-05 12:17:09.214944027][I][Irohad]: created
+[33miroha-node1    |[0m [2020-02-05 12:17:09.215036659][I][Irohad]: [Init] => pending transactions storage
+[33miroha-node1    |[0m [2020-02-05 12:17:09.289017311][I][Irohad/FlatFile]: get(0) file not found
+[33miroha-node1    |[0m [2020-02-05 12:17:09.289142907][I][Irohad]: [Init] => storage
+[33miroha-node1    |[0m [2020-02-05 12:17:09.358133321][I][Irohad/Storage]: create mutable storage
+[33miroha-node1    |[0m [2020-02-05 12:17:09.376128661][I][Irohad/Storage/MutableStorageImpl]: Applying block: height 1, hash d1a90b74cb7369238e44154eca011eefe02650745ccaae99f5c03ffdc61e12e0
+[33miroha-node1    |[0m [2020-02-05 12:17:09.383529202][I][Irohad/Storage]: Block inserted
+[33miroha-node1    |[0m [2020-02-05 12:17:09.391425533][I][Init]: Genesis block inserted, number of transactions: 1
+[33miroha-node1    |[0m [2020-02-05 12:17:09.393692586][I][Irohad/Storage/PostgresSettingQuery]: Kept value for MaxDescriptionSize: 64
+[33miroha-node1    |[0m [2020-02-05 12:17:09.393728279][I][Irohad]: [Init] => settings
+[33miroha-node1    |[0m [2020-02-05 12:17:09.393743491][I][Irohad]: [Init] => validators configs
+[33miroha-node1    |[0m [2020-02-05 12:17:09.472271558][I][Irohad/Storage/MutableStorageImpl]: Applying block: height 1, hash d1a90b74cb7369238e44154eca011eefe02650745ccaae99f5c03ffdc61e12e0
+[33miroha-node1    |[0m [2020-02-05 12:17:09.483046951][I][Irohad]: [Init] => crypto provider
+[33miroha-node1    |[0m [2020-02-05 12:17:09.483077407][I][Irohad]: [Init] => transaction batch parser
+[33miroha-node1    |[0m [2020-02-05 12:17:09.483198604][I][Irohad]: [Init] => validators
+[33miroha-node1    |[0m [2020-02-05 12:17:09.483859745][I][Irohad]: [Init] => factories
+[33miroha-node1    |[0m [2020-02-05 12:17:09.483890988][I][Irohad]: [Init] => persistent cache
+[33miroha-node1    |[0m [2020-02-05 12:17:09.486448634][I][Irohad]: [Init] => init ordering gate - [true]
+[33miroha-node1    |[0m [2020-02-05 12:17:09.497520183][I][Irohad]: [Init] => init simulator
+[33miroha-node1    |[0m [2020-02-05 12:17:09.497551525][I][Irohad]: [Init] => init consensus block cache
+[33miroha-node1    |[0m [2020-02-05 12:17:09.497665365][I][Irohad]: [Init] => block loader
+[33miroha-node1    |[0m [2020-02-05 12:17:09.500773365][I][Irohad]: [Init] => consensus gate
+[33miroha-node1    |[0m [2020-02-05 12:17:09.515685583][I][Irohad]: [Init] => synchronizer
+[33miroha-node1    |[0m [2020-02-05 12:17:09.515831859][I][Irohad]: [Init] => pcs
+[33miroha-node1    |[0m [2020-02-05 12:17:09.515977850][I][Irohad]: [Init] => Tx status bus
+[33miroha-node1    |[0m [2020-02-05 12:17:09.516256358][I][Irohad]: [Init] => MST processor
+[33miroha-node1    |[0m [2020-02-05 12:17:09.516623502][I][Irohad]: [Init] => command service
+[33miroha-node1    |[0m [2020-02-05 12:17:09.516803486][I][Irohad]: [Init] => query service
+[33miroha-node1    |[0m [2020-02-05 12:17:09.516832793][I][Init]: Running iroha
+[33miroha-node1    |[0m [2020-02-05 12:17:09.517295248][I][Irohad]: Torii server bound on port 50051
+[33miroha-node1    |[0m [2020-02-05 12:17:09.517515085][I][Irohad]: Internal server bound on port 10001
+[33miroha-node1    |[0m [2020-02-05 12:17:09.517563577][I][Irohad]: ===> iroha initialized
+[33miroha-node1    |[0m [2020-02-05 12:17:09.520935180][I][Irohad/Ordering/Service]: onCollaborationOutcome => Round: [block=2, reject=0]
+[33miroha-node1    |[0m [2020-02-05 12:17:09.522973301][I][Irohad]: ~~~~~~~~~| PROPOSAL ^_^ |~~~~~~~~~ 
+[33miroha-node1    |[0m [2020-02-05 12:17:09.626512333][W][Irohad/AsyncNetworkClient]: RPC failed: failed to connect to all addresses iroha-node2:10001
+[33miroha-node1    |[0m [2020-02-05 12:17:09.829641926][W][Irohad/AsyncNetworkClient]: RPC failed: failed to connect to all addresses iroha-node3:10001
+[32miroha-node2    |[0m [2020-02-05 12:17:12.206035651][I][Init]: Irohad version: 1.1.0-240-g45c9dd4
+[32miroha-node2    |[0m [2020-02-05 12:17:12.206106374][I][Init]: config initialized
+[32miroha-node2    |[0m [2020-02-05 12:17:12.209554585][I][Irohad]: created
+[32miroha-node2    |[0m [2020-02-05 12:17:12.209661472][I][Irohad]: [Init] => pending transactions storage
+[32miroha-node2    |[0m [2020-02-05 12:17:12.298441695][I][Irohad/FlatFile]: get(0) file not found
+[32miroha-node2    |[0m [2020-02-05 12:17:12.298614336][I][Irohad]: [Init] => storage
+[32miroha-node2    |[0m [2020-02-05 12:17:12.374676797][I][Irohad/Storage]: create mutable storage
+[32miroha-node2    |[0m [2020-02-05 12:17:12.393007185][I][Irohad/Storage/MutableStorageImpl]: Applying block: height 1, hash d1a90b74cb7369238e44154eca011eefe02650745ccaae99f5c03ffdc61e12e0
+[32miroha-node2    |[0m [2020-02-05 12:17:12.400502915][I][Irohad/Storage]: Block inserted
+[32miroha-node2    |[0m [2020-02-05 12:17:12.408648525][I][Init]: Genesis block inserted, number of transactions: 1
+[32miroha-node2    |[0m [2020-02-05 12:17:12.410960535][I][Irohad/Storage/PostgresSettingQuery]: Kept value for MaxDescriptionSize: 64
+[32miroha-node2    |[0m [2020-02-05 12:17:12.410996215][I][Irohad]: [Init] => settings
+[32miroha-node2    |[0m [2020-02-05 12:17:12.411029841][I][Irohad]: [Init] => validators configs
+[32miroha-node2    |[0m [2020-02-05 12:17:12.492900250][I][Irohad/Storage/MutableStorageImpl]: Applying block: height 1, hash d1a90b74cb7369238e44154eca011eefe02650745ccaae99f5c03ffdc61e12e0
+[32miroha-node2    |[0m [2020-02-05 12:17:12.503993964][I][Irohad]: [Init] => crypto provider
+[32miroha-node2    |[0m [2020-02-05 12:17:12.504029458][I][Irohad]: [Init] => transaction batch parser
+[32miroha-node2    |[0m [2020-02-05 12:17:12.504142487][I][Irohad]: [Init] => validators
+[32miroha-node2    |[0m [2020-02-05 12:17:12.504969588][I][Irohad]: [Init] => factories
+[32miroha-node2    |[0m [2020-02-05 12:17:12.505001865][I][Irohad]: [Init] => persistent cache
+[32miroha-node2    |[0m [2020-02-05 12:17:12.508072526][I][Irohad]: [Init] => init ordering gate - [true]
+[32miroha-node2    |[0m [2020-02-05 12:17:12.519727402][I][Irohad]: [Init] => init simulator
+[32miroha-node2    |[0m [2020-02-05 12:17:12.519768508][I][Irohad]: [Init] => init consensus block cache
+[32miroha-node2    |[0m [2020-02-05 12:17:12.519883473][I][Irohad]: [Init] => block loader
+[32miroha-node2    |[0m [2020-02-05 12:17:12.523187856][I][Irohad]: [Init] => consensus gate
+[32miroha-node2    |[0m [2020-02-05 12:17:12.536888260][I][Irohad]: [Init] => synchronizer
+[32miroha-node2    |[0m [2020-02-05 12:17:12.537038329][I][Irohad]: [Init] => pcs
+[32miroha-node2    |[0m [2020-02-05 12:17:12.537222124][I][Irohad]: [Init] => Tx status bus
+[32miroha-node2    |[0m [2020-02-05 12:17:12.537602680][I][Irohad]: [Init] => MST processor
+[32miroha-node2    |[0m [2020-02-05 12:17:12.537946728][I][Irohad]: [Init] => command service
+[32miroha-node2    |[0m [2020-02-05 12:17:12.538101591][I][Irohad]: [Init] => query service
+[32miroha-node2    |[0m [2020-02-05 12:17:12.538130869][I][Init]: Running iroha
+[32miroha-node2    |[0m [2020-02-05 12:17:12.538619485][I][Irohad]: Torii server bound on port 50051
+[32miroha-node2    |[0m [2020-02-05 12:17:12.538792457][I][Irohad]: Internal server bound on port 10001
+[32miroha-node2    |[0m [2020-02-05 12:17:12.538820728][I][Irohad]: ===> iroha initialized
+[32miroha-node2    |[0m [2020-02-05 12:17:12.542320205][I][Irohad/Ordering/Service]: onCollaborationOutcome => Round: [block=2, reject=0]
+[32miroha-node2    |[0m [2020-02-05 12:17:12.544173260][I][Irohad]: ~~~~~~~~~| PROPOSAL ^_^ |~~~~~~~~~ 
+[36miroha-node0    |[0m [2020-02-05 12:17:12.748527441][W][Irohad/AsyncNetworkClient]: RPC failed: failed to connect to all addresses iroha-node2:10001
+[36miroha-node0    |[0m [2020-02-05 12:17:12.748706908][W][Irohad/AsyncNetworkClient]: RPC failed: failed to connect to all addresses iroha-node3:10001
+[33miroha-node1    |[0m [2020-02-05 12:17:12.749789163][I][Irohad/Synchronizer]: processing consensus outcome
+[33miroha-node1    |[0m [2020-02-05 12:17:12.749844374][I][Irohad]: ~~~~~~~~~| EMPTY (-_-)zzz |~~~~~~~~~ 
+[36miroha-node0    |[0m [2020-02-05 12:17:12.749370888][I][Irohad/Synchronizer]: processing consensus outcome
+[36miroha-node0    |[0m [2020-02-05 12:17:12.749455230][I][Irohad]: ~~~~~~~~~| EMPTY (-_-)zzz |~~~~~~~~~ 
+[36miroha-node0    |[0m [2020-02-05 12:17:12.750214725][I][Irohad/Ordering/Service]: onCollaborationOutcome => Round: [block=2, reject=1]
+[33miroha-node1    |[0m [2020-02-05 12:17:12.750626362][I][Irohad/Ordering/Service]: onCollaborationOutcome => Round: [block=2, reject=1]
+[36miroha-node0    |[0m [2020-02-05 12:17:12.752459485][I][Irohad]: ~~~~~~~~~| PROPOSAL ^_^ |~~~~~~~~~ 
+[33miroha-node1    |[0m [2020-02-05 12:17:12.752660593][I][Irohad]: ~~~~~~~~~| PROPOSAL ^_^ |~~~~~~~~~ 
+[32miroha-node2    |[0m [2020-02-05 12:17:12.848027575][W][Irohad/AsyncNetworkClient]: RPC failed: failed to connect to all addresses iroha-node3:10001
+[36miroha-node0    |[0m [2020-02-05 12:17:12.852582546][W][Irohad/AsyncNetworkClient]: RPC failed: failed to connect to all addresses iroha-node2:10001
+[33miroha-node1    |[0m [2020-02-05 12:17:12.853687324][W][Irohad/AsyncNetworkClient]: RPC failed: failed to connect to all addresses iroha-node2:10001
+[36miroha-node0    |[0m [2020-02-05 12:17:13.054599653][W][Irohad/AsyncNetworkClient]: RPC failed: failed to connect to all addresses iroha-node3:10001
+[33miroha-node1    |[0m [2020-02-05 12:17:13.055160607][W][Irohad/AsyncNetworkClient]: RPC failed: failed to connect to all addresses iroha-node3:10001
+[35miroha-node3    |[0m [2020-02-05 12:17:15.189602036][I][Init]: Irohad version: 1.1.0-240-g45c9dd4
+[35miroha-node3    |[0m [2020-02-05 12:17:15.189666719][I][Init]: config initialized
+[35miroha-node3    |[0m [2020-02-05 12:17:15.193481249][I][Irohad]: created
+[35miroha-node3    |[0m [2020-02-05 12:17:15.193584385][I][Irohad]: [Init] => pending transactions storage
+[35miroha-node3    |[0m [2020-02-05 12:17:15.266981356][I][Irohad/FlatFile]: get(0) file not found
+[35miroha-node3    |[0m [2020-02-05 12:17:15.267116180][I][Irohad]: [Init] => storage
+[35miroha-node3    |[0m [2020-02-05 12:17:15.346581919][I][Irohad/Storage]: create mutable storage
+[35miroha-node3    |[0m [2020-02-05 12:17:15.370602834][I][Irohad/Storage/MutableStorageImpl]: Applying block: height 1, hash d1a90b74cb7369238e44154eca011eefe02650745ccaae99f5c03ffdc61e12e0
+[35miroha-node3    |[0m [2020-02-05 12:17:15.379559530][I][Irohad/Storage]: Block inserted
+[35miroha-node3    |[0m [2020-02-05 12:17:15.388141215][I][Init]: Genesis block inserted, number of transactions: 1
+[35miroha-node3    |[0m [2020-02-05 12:17:15.390836423][I][Irohad/Storage/PostgresSettingQuery]: Kept value for MaxDescriptionSize: 64
+[35miroha-node3    |[0m [2020-02-05 12:17:15.390885191][I][Irohad]: [Init] => settings
+[35miroha-node3    |[0m [2020-02-05 12:17:15.390902351][I][Irohad]: [Init] => validators configs
+[35miroha-node3    |[0m [2020-02-05 12:17:15.471802737][I][Irohad/Storage/MutableStorageImpl]: Applying block: height 1, hash d1a90b74cb7369238e44154eca011eefe02650745ccaae99f5c03ffdc61e12e0
+[35miroha-node3    |[0m [2020-02-05 12:17:15.482490693][I][Irohad]: [Init] => crypto provider
+[35miroha-node3    |[0m [2020-02-05 12:17:15.482520307][I][Irohad]: [Init] => transaction batch parser
+[35miroha-node3    |[0m [2020-02-05 12:17:15.482628706][I][Irohad]: [Init] => validators
+[35miroha-node3    |[0m [2020-02-05 12:17:15.483234867][I][Irohad]: [Init] => factories
+[35miroha-node3    |[0m [2020-02-05 12:17:15.483265037][I][Irohad]: [Init] => persistent cache
+[35miroha-node3    |[0m [2020-02-05 12:17:15.485901927][I][Irohad]: [Init] => init ordering gate - [true]
+[35miroha-node3    |[0m [2020-02-05 12:17:15.497265106][I][Irohad]: [Init] => init simulator
+[35miroha-node3    |[0m [2020-02-05 12:17:15.497296036][I][Irohad]: [Init] => init consensus block cache
+[35miroha-node3    |[0m [2020-02-05 12:17:15.497408925][I][Irohad]: [Init] => block loader
+[35miroha-node3    |[0m [2020-02-05 12:17:15.500393763][I][Irohad]: [Init] => consensus gate
+[35miroha-node3    |[0m [2020-02-05 12:17:15.514289019][I][Irohad]: [Init] => synchronizer
+[35miroha-node3    |[0m [2020-02-05 12:17:15.514456505][I][Irohad]: [Init] => pcs
+[35miroha-node3    |[0m [2020-02-05 12:17:15.514604812][I][Irohad]: [Init] => Tx status bus
+[35miroha-node3    |[0m [2020-02-05 12:17:15.514884053][I][Irohad]: [Init] => MST processor
+[35miroha-node3    |[0m [2020-02-05 12:17:15.515244280][I][Irohad]: [Init] => command service
+[35miroha-node3    |[0m [2020-02-05 12:17:15.515429873][I][Irohad]: [Init] => query service
+[35miroha-node3    |[0m [2020-02-05 12:17:15.515458567][I][Init]: Running iroha
+[35miroha-node3    |[0m [2020-02-05 12:17:15.515855211][I][Irohad]: Torii server bound on port 50051
+[35miroha-node3    |[0m [2020-02-05 12:17:15.516026144][I][Irohad]: Internal server bound on port 10001
+[35miroha-node3    |[0m [2020-02-05 12:17:15.516053708][I][Irohad]: ===> iroha initialized
+[35miroha-node3    |[0m [2020-02-05 12:17:15.519482291][I][Irohad/Ordering/Service]: onCollaborationOutcome => Round: [block=2, reject=0]
+[35miroha-node3    |[0m [2020-02-05 12:17:15.521214876][I][Irohad]: ~~~~~~~~~| PROPOSAL ^_^ |~~~~~~~~~ 
+[33miroha-node1    |[0m [2020-02-05 12:17:15.522533152][W][Irohad/AsyncNetworkClient]: RPC failed: failed to connect to all addresses iroha-node3:10001
+[36miroha-node0    |[0m [2020-02-05 12:17:15.724903806][W][Irohad/AsyncNetworkClient]: RPC failed: failed to connect to all addresses iroha-node3:10001
+Gracefully stopping... (press Ctrl+C again to force)

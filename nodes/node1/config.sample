@@ -1,0 +1,40 @@
+{
+  "block_store_path" : "/tmp/block_store/",
+  "torii_port" : 50051,
+  "internal_port" : 10001,
+  "database": {
+    "host": "127.0.0.1",
+    "port": 5432,
+    "user": "iroha",
+    "password": "iroha",
+    "working database": "iroha",
+    "maintenance database": "postgres"
+  },
+  "max_proposal_size" : 10000,
+  "proposal_delay" : 4000,
+  "vote_delay" : 100,
+  "max_rounds_delay": 100,
+  "mst_enable" : false,
+  "stale_stream_max_rounds": 50,
+  "log": {
+    "level": "info",
+    "children": {
+      "Irohad": {
+        "children": {
+          "Store": {
+            "level": "info"
+          },
+          "Consensus": {
+            "level": "error"
+          },
+          "PeerCommunicationService": {
+            "level": "error"
+          },
+          "VoteStorage": {
+            "level": "error"
+          }
+        }
+      }
+    }
+  }
+}

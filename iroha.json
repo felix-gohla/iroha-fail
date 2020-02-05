@@ -1,0 +1,40 @@
+{
+    "caliper": {
+        "blockchain": "iroha"
+    },
+    "iroha": {
+        "admin": {
+            "account": "admin",
+            "domain": "test",
+            "key-pub": "blockchains/iroha/account_keys/admin@test.pub",
+            "key-priv": "blockchains/iroha/account_keys/admin@test.priv"
+        },
+        "network": {
+            "node0": {
+                "torii": "localhost:50051"
+            },
+            "node1": {
+                "torii": "localhost:50052"
+            },
+            "node2": {
+                "torii": "localhost:50053"
+            },
+            "node3": {
+                "torii": "localhost:50054"
+            }
+        },
+        "fakecontract": [
+            {
+                "factory": "blockchains/iroha/apps/simple_factory.js",
+                "id": [
+                    "simple"
+                ]
+            }
+        ]
+    },
+    "info": {
+        "Version": "1.0.0",
+        "Size": "4 Peers",
+        "Distribution": "Single Host"
+    }
+}
